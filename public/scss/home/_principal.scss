@@ -1,0 +1,246 @@
+.section-principal{
+    height: 10vh;
+    width: 100vw;
+    .splide__slide{
+        .img-principal-container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            img{
+                margin-top: 100px;
+                object-fit: cover;
+                height: 100vh;
+                width: 100%;
+            }
+        }
+    }
+    .text-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 10vw;
+        font-family: $principal-font;
+        .text-content{
+            color: white;
+            h2{
+                font-family: $section-titles-font;
+                font-size: 45px;
+            }
+            h3{
+                font-family: $text-title-font;
+                font-size: 30px;
+            }
+            &.desc{
+                color: white;
+                text-align: center;
+                h2{
+                    font-size: x-large;
+                    margin-bottom: 10px;
+                }
+                h3{
+                    font-size: large;
+                    margin-bottom: 5px;
+                }
+                p{
+                    text-align: left;
+                    font-size: medium;
+                    &.foot{
+                        margin-top: 25px;
+                        font-size: small;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        
+        
+        &.left{
+            .text-content{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 30%;
+                height: 100vh;
+                padding: 0 30px;
+                background-color: rgba($color: lightgreen, $alpha: 0.8);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+        }
+        &.right{
+            .text-content{
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 30%;
+                height: 100vh;
+                padding: 0 30px;
+                background-color: rgba($color: lightgreen, $alpha: 0.8);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+        }
+        
+        &.down{
+            .text-content{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 20%;
+                padding: 0 30px;
+                background-color: rgba($color: lightgreen, $alpha: 0.8);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+        }
+        
+        &.up{
+            .text-content{
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 20%;
+                padding: 0 30px;
+                background-color: rgba($color: lightgreen, $alpha: 0.8);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+        }
+        
+        &.total{
+            .text-content{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                padding: 0 30px;
+                background-color: rgba($color: lightgreen, $alpha: 0.8);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .section-principal{
+        .text-container{
+            justify-content: flex-start;
+            align-items: center;
+            padding: 0;
+            padding-top: 30vh;
+            text-align: center;
+            width: 100%;
+            h1{
+                width: 100%;
+            }
+            &.left{
+                .text-content{
+                    width: 40%;
+                    padding: 0 15px;
+                }
+            }
+            &.right{
+                .text-content{
+                    width: 40%;
+                    padding: 0 15px;
+                }
+            }
+            
+            &.down{
+                .text-content{
+                    height: 25%;
+                    padding: 15px;
+
+                }
+            }
+        }
+        .splide__slide{
+            .img-principal-container{
+                justify-content: flex-end;
+                align-items: center;
+                img{
+                    height: 100vh;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .section-principal{
+        .text-container{
+            .text-content{
+                color: white;
+                h2{
+                    font-size: 30px;
+                }
+                h3{
+                    font-size: 18px;
+                }
+                &.desc{
+                    color: white;
+                    h2{
+                        font-size: large;
+                    }
+                    h3{
+                        font-size: medium;
+                    }
+                    p{
+                        font-size: small;
+                        &.foot{
+                            font-size: x-small;
+                        }
+                    }
+                }
+            }
+            
+            
+            &.left{
+                .text-content{
+                    width: 50%;
+                    padding: 0 15px;
+                }
+            }
+            &.right{
+                .text-content{
+                    width: 50%;
+                    padding: 0 15px;
+                }
+            }
+            
+            &.down{
+                .text-content{
+                    height: 25%;
+                    padding: 15px;
+
+                }
+            }
+            
+            
+        }
+    }
+}

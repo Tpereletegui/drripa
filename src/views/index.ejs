@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="/images/logo.png" type="image/png">
+    <!--- CSS -->
+    <link rel='stylesheet' href='/css/style.css' />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Splide JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Rajdhani:wght@300;600&family=Roboto&display=swap" rel="stylesheet">
+    <!-- ChartJs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js" integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+  </head>
+  <body>
+
+    <%- include('./partials/wpp.ejs') %>
+    <%- include('./partials/navbar') %>
+    <%- include('./home/principal') %>
+    <%- include('./home/info') %>
+    <%- include('./home/stats') %>
+    <%- include('./home/aboutme') %>
+    <%- include('./home/videos.ejs') %>
+    <%- include('./home/testimonials') %>
+    <%- include('./home/contact') %>
+    <%- include('./partials/footer') %>
+
+    <!-- Splide JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+    <script>
+      var elms = document.getElementsByClassName( 'splide' );
+      for ( var i = 0, len = elms.length; i < len; i++ ) {
+        new Splide( elms[ i ] ).mount();
+      }
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script> AOS.init(); </script> 
+
+    <script>
+      let ctx1 = document.querySelector('#myChart1').getContext("2d");
+      let myChart1 = new Chart(ctx1,{
+        type: 'doughnut',
+        data: {
+          
+          datasets: [{
+            data: [50,50],
+            backgroundColor: [
+              'rgb(144, 238, 144)',
+              'rgb(175, 175, 175)',
+            ],
+            hoverOffset: 4,
+            cutout: 0,
+            animation: {
+              animateScale: true
+            }
+            
+          }],
+        },
+      })
+
+      let ctx2 = document.querySelector('#myChart2').getContext("2d");
+      let myChart2 = new Chart(ctx2,{
+        type: 'doughnut',
+        data: {
+          
+          datasets: [{
+            label: 'grafico torta',
+            data: [25,75],
+            backgroundColor: [
+              'rgb(144, 238, 144)',
+              'rgb(175, 175, 175)',
+            ],
+            hoverOffset: 4,
+            cutout: 0,
+            animation: {
+              animateScale: true
+            }
+          }],
+        },
+      })
+
+      let ctx3 = document.querySelector('#myChart3').getContext("2d");
+      let myChart3 = new Chart(ctx3,{
+        type: 'doughnut',
+        data: {
+          
+          datasets: [{
+            label: 'grafico torta',
+            data: [30,100],
+            backgroundColor: [
+              'rgb(144, 238, 144)',
+              'rgb(175, 175, 175)',
+            ],
+            hoverOffset: 4,
+            cutout: 0,
+            animation: {
+              animateScale: true
+            }
+          }],
+        },
+      })
+    </script>
+    <script src="/js/navLinks.js"></script>
+    <script src="/js/footerLinks.js"></script>
+    <script>
+
+      let nameInput = document.getElementById('name');
+      let emailInput = document.getElementById('email');
+      let subjectInput = document.getElementById('subject');
+      let messageInput = document.getElementById('message');
+
+      let form = document.getElementById('form-message');
+
+      form.addEventListener('submit', (e)=>{
+        e.preventDefault();
+        axios.post("/message",{
+              name: name.value,
+              email: emailInput.value,
+              subject: subjectInput.value,
+              message: messageInput.value
+            })
+            .then(res =>{
+              if (res.status === 200){
+                  Swal.fire({
+                      icon: 'success',
+                      title: 'Enviado',
+                      html: '<label>El mensaje fue enviado, espera por una respuesta</label>', /* 'The message was sent', */
+                      confirmButtonColor: '#093147',  
+                  })
+                  nameInput.value="";
+                  emailInput.value="";
+                  subjectInput.value="";
+                  messageInput.value="";
+              }else{
+                  Swal.fire({
+                      icon: 'error',
+                      title: 'Ups...',
+                      text: 'Ocurrió un error y el mensaje no fue enviado',
+                  })
+                  nameInput.value="";
+                  emailInput.value="";
+                  subjectInput.value="";
+                  messageInput.value="";
+              }
+            })
+            .catch(error =>{
+              console.log(error);
+            });
+      })
+
+    </script>
+  </body>
+</html>

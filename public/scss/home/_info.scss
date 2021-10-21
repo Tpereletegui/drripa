@@ -1,0 +1,109 @@
+.section-info{
+    margin: 50px 0;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        .container-green{
+            background-color: lightgreen;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            margin-bottom: 30px;
+            width: 30%;
+            z-index: 9;
+            h3{
+                font-family: $section-titles-font;        
+                font-size: 36px;
+                font-weight: 900;
+                color: white;
+                text-align: center;
+            }
+        }
+        .container-text{
+            margin-top: 30px;
+            background-color: white;
+            width: 70%;
+            padding: 5% 5% 5% 10% ;
+            box-shadow: 0 0 10px silver;
+            line-height: 1.5;
+            p{
+               
+                font-family: $text-body-font;
+            }
+        }
+        img{
+            position: absolute;
+            align-self: flex-end;
+            margin-left: 15px;
+            z-index: 10;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .section-info{
+        margin-top: 200px;
+        .container{
+            width: 80%;
+            align-items: flex-start;
+            flex-direction: column;
+            .container-green{
+                width: auto;               
+                margin:0;
+                padding:10px 15px;
+                transform: translateX(10%) translateY(50%);
+            }
+            .container-text{
+                
+                margin: 0;
+                padding: 20px;
+                padding-bottom: 275px;
+                width: 100%;
+                p{
+                    margin-top: 40px;
+                }
+            }
+            img{
+                position:inherit;
+                align-self: center;
+                transform: translateY(-100%);
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .section-info{
+        margin-top: 50px;
+        margin-bottom: -146px;
+        .container{
+            width: 90%;
+            align-items: center;
+            
+            .container-green{
+                h3{
+                    font-size: x-large;
+                }
+                transform: none;
+                transform: translateY(50%);
+            }
+            .container-text{
+                padding: 40px;
+                padding-bottom: 275px;
+                margin: 0;
+                width: 100%;
+                p{
+                    margin-top: 40px;
+                }
+            }
+            
+        }
+    }
+}

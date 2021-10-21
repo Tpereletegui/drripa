@@ -1,0 +1,153 @@
+.section-stats{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .box{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        .title{
+            background-color: lightgreen;
+            padding:5px 30px 5px 30px;
+            font-family: $section-titles-font;        
+            font-size: 36px;
+            font-weight: 900;
+            
+            color: white;
+            text-align: center;
+    }
+        .content{
+            background-color: white;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 0 10px silver;
+            padding: 30px;
+            p{
+                margin: 20px 0;
+                font-size: x-large;
+                font-family: $section-titles-font;
+                font-weight: bold;
+                color: silver;
+            }
+            .odonto-no{
+                display: flex;
+                justify-content: space-around;
+                .top{
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 3%;
+                    .field{
+                        font-family: $text-title-font;                       
+                        margin: 10px 0;
+                        padding: 5px 15px;
+                        box-shadow: 0 0 10px rgba(192, 192, 192, 0.3);
+                        border-radius: 15px;
+                        &.focus{
+                            background-color: lightgreen;
+                            color: white;
+                        }
+                    }   
+                }
+                .warning-box{
+                    width: 50%;
+                    
+                    .box{
+                        background-color: lightgrey;
+                        border-radius: 15px;
+                        width: 100%;
+                        padding: 20px;
+                        font-family: $text-body-font;   
+                    }
+                }
+            }
+            .percent{
+                width: 100%;
+                display:flex;
+                padding: 30px 0;
+                .chart-container{
+                    height: 100%!important;
+                    width: 33%;
+                    padding:0 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    .chart{
+                        width: 200px!important;
+                        height: 200px!important;
+                    }
+                    font-family: $text-body-font;   
+                    text-align: center;
+                    .desc{
+                        font-size: medium;
+                        margin: 10px 0 ;
+                    }
+                    .fuente{
+                        font-size: small;
+                        margin: 10px 0 ;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px){
+    .section-stats{
+        .box{
+            width: 80%;
+            .content{
+                
+                .odonto-no{
+                    width: 100%;
+                    align-items: center;
+                    flex-direction: column;
+                    .top{
+                        width: 50%;
+                    }
+                }
+                .percent{
+                    flex-direction: column;
+                    width: 100%;
+                    align-items: center;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .section-stats{
+        .box{
+            width: 90%;
+            .content{
+                padding: 40px;
+                .odonto-no{
+                    width: 100%;
+                    align-items: center;
+                    flex-direction: column;
+                    .top{
+                        width: 100%;
+                    }
+                    .warning-box{
+                        width: 100%;
+                    }
+                }
+                .percent{
+                    flex-direction: column;
+                    width: 100%;
+                    align-items: center;
+                    flex-direction: column;
+                    .chart-container{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

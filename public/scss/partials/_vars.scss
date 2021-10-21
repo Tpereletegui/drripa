@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    overflow-x: hidden!important;
+}
+
+$emerald: #00BAC6;
+$dark-gray: #686868;
+$light-gray: #A7A7A7;
+$principal-font: 'PT Sans Narrow', sans-serif;
+
+
+$section-titles-font: 'Rajdhani', sans-serif;  
+$text-title-font:'Roboto', sans-serif;
+$text-body-font:'Nunito', sans-serif;
+
+#particles-js{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: -999999;
+}
