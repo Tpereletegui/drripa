@@ -32,6 +32,7 @@ nav {
   padding: 0 100px;
   transition: all 0.3s ease;
   text-align: left;
+  top: 0px;
 }
 nav .logo {
   display: flex;
@@ -80,7 +81,7 @@ nav ul li {
 }
 nav ul li a {
   transition: all 0.2s ease-in-out;
-  color: #A7A7A7;
+  color: #a7a7a7;
 }
 nav ul li a:hover {
   color: lightgreen;
@@ -132,7 +133,8 @@ nav.scroll ul li {
     box-shadow: 0 2px 5px rgba(104, 104, 104, 0.3);
     transition: all 0.5s ease-in-out;
   }
-  nav .checkbtn .hamburger::before, nav .checkbtn .hamburger::after {
+  nav .checkbtn .hamburger::before,
+  nav .checkbtn .hamburger::after {
     content: "";
     position: absolute;
     width: 50px;
@@ -233,7 +235,7 @@ footer .logo {
   align-items: center;
   z-index: 8;
   text-decoration: none;
-  color: #A7A7A7;
+  color: #a7a7a7;
   font-weight: bold;
 }
 footer .logo img {
@@ -272,7 +274,9 @@ footer .ittech {
   margin: 30px 0;
   font-family: "Roboto", sans-serif;
 }
-footer .ittech a, footer .ittech a:active, footer .ittech a:visited {
+footer .ittech a,
+footer .ittech a:active,
+footer .ittech a:visited {
   text-decoration: none;
   color: inherit;
 }
@@ -281,7 +285,7 @@ footer .ittech a, footer .ittech a:active, footer .ittech a:visited {
 }
 #edificio:hover {
   transform: scale(3);
-  box-shadow: .3vw .3vw 1.5vw black;
+  box-shadow: 0.3vw 0.3vw 1.5vw black;
 }
 
 @media (max-width: 768px) {
@@ -328,7 +332,7 @@ footer .ittech a, footer .ittech a:active, footer .ittech a:visited {
 .section-principal .splide__slide .img-principal-container img {
   margin-top: 100px;
   object-fit: cover;
-  height: 100%;
+  max-height: 300px;
   width: 100%;
 }
 .section-principal .text-container {
@@ -378,7 +382,6 @@ footer .ittech a, footer .ittech a:active, footer .ittech a:visited {
 }
 .section-principal .text-container.left .text-content {
   position: absolute;
-  height: 80vh;
   top: 20vh;
   margin-top: 100px;
   left: 0;
@@ -394,12 +397,9 @@ footer .ittech a, footer .ittech a:active, footer .ittech a:visited {
 .section-principal .text-container.right .text-content {
   position: absolute;
   right: 0;
-  height: 80vh;
   top: 20vh;
   margin-top: 100px;
   top: 0vh;
-  width: 26%;
-  height: 80vh;
   padding: 0 2vw 100px 2vw;
   background-color: rgba(144, 238, 144, 0.8);
   display: flex;
@@ -523,8 +523,8 @@ footer .ittech a, footer .ittech a:active, footer .ittech a:visited {
   right: 25px;
   width: 5vmax;
   transition: 1s;
-  background:rgba(144, 238, 144, 0.8);
-  padding: .5vmax;
+  background: rgba(144, 238, 144, 0.8);
+  padding: 0.5vmax;
   border-radius: 50%;
 }
 
@@ -989,7 +989,7 @@ footer .ittech a, footer .ittech a:active, footer .ittech a:visited {
 }
 .section-testimonials .splide-testimonial .box .testimonial {
   font-size: medium;
-  color: #A7A7A7;
+  color: #a7a7a7;
   font-family: "Nunito", sans-serif;
 }
 .section-testimonials .splide-testimonial .box .box-pico {
@@ -1066,7 +1066,7 @@ footer .ittech a, footer .ittech a:active, footer .ittech a:visited {
   display: flex;
   flex-direction: column;
   margin: 10px 0;
-  color: #A7A7A7;
+  color: #a7a7a7;
 }
 .section-contact .box .message .field label {
   margin: 3px 0;
@@ -1077,7 +1077,8 @@ footer .ittech a, footer .ittech a:active, footer .ittech a:visited {
 .section-contact .box .message .field textarea {
   resize: none;
 }
-.section-contact .box .message .field input, .section-contact .box .message .field textarea {
+.section-contact .box .message .field input,
+.section-contact .box .message .field textarea {
   border: none;
   box-shadow: 0 0 5px rgba(128, 128, 128, 0.438);
   border-radius: 10px;
@@ -1140,3 +1141,23 @@ footer .ittech a, footer .ittech a:active, footer .ittech a:visited {
 }
 
 /*# sourceMappingURL=style.css.map */
+.carousel-caption {
+  background-color: rgba(144, 238, 144, 0.8);
+  color: black;
+  padding: 40px;
+  border-radius: 15px;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: black !important;
+}
+.carousel-indicators {
+  margin-bottom: 0px;
+}
+.carousel-item img {
+  margin: auto;
+  max-height: 600px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  color: black !important;
+}
