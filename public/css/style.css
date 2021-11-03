@@ -1144,7 +1144,7 @@ footer .ittech a:visited {
 .carousel-caption {
   background-color: rgba(144, 238, 144, 0.8);
   color: black;
-  padding: 40px;
+  padding: 10px;
   border-radius: 15px;
 }
 .carousel-indicators [data-bs-target] {
@@ -1160,4 +1160,11 @@ footer .ittech a:visited {
 .carousel-control-next,
 .carousel-control-prev {
   color: black !important;
+}
+.texto-chico {
+  font-size: 12px;
+}
+.texto-chico ul {
+  list-style-type: none;
+  margin-bottom: 0px !important;
 }
