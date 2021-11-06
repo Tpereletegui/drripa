@@ -295,13 +295,13 @@ footer .ittech a:visited {
 }
 @media (max-width: 576px) {
   #whatsapp {
-    width: 15vmax;
+    width: 8vmax;
   }
   #calendar {
     width: 10vmax;
   }
   #whatsapp2 {
-    width: 15vmax;
+    width: 8vmax;
   }
   footer .links {
     flex-direction: column;
@@ -1146,6 +1146,7 @@ footer .ittech a:visited {
   color: black;
   padding: 10px;
   border-radius: 15px;
+  font-size: 15px;
 }
 .carousel-indicators [data-bs-target] {
   background-color: black !important;
@@ -1163,6 +1164,7 @@ footer .ittech a:visited {
 }
 .texto-chico {
   font-size: 12px;
+  font-weight: bold;
 }
 .texto-chico ul {
   list-style-type: none;
