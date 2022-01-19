@@ -2,32 +2,22 @@
   <input type="checkbox" id="check">
   <label for="check" class="checkbtn"><div class="hamburger"></div></label>
   <a href="/" class="logo">
-    <img src="/images/logo.png" alt="Doctora Liza Klein Logo">
+    <img style='margin-right: 15px;' src="/images/dentistry.png" alt="Dr. Ripa">
     <div class="text">
-      <span>Dra. Liza Klein</span>
+      <span>Dr. Ripa</span>
       <span>HALITOSIS</span>
     </div>
   </a>
 
   <ul>
-    <li><i class="fal fa-home-alt"></i><a id="linkAboutme">BIO</a></li>
-    <li><i class="fal fa-users"></i><a id="linkInfo">HALITOSIS</a></li>
-    <li><i class="fal fa-newspaper"></i><a id="linkStats">ESTADISTICAS</a></li>
-    <li><i class="fal fa-tooth"></i><a id="linkReviews">TESTIMONIOS</a></li>
-    <li><i class="fal fa-user-md"></i><a id="linkContact">CONTACTO</a></li>
+    <li><i class="fal fa-home-alt"></i><a href="#sectionAboutme" class="link-nav" id="linkAboutme">BIO</a></li>
+    <li><i class="fal fa-users"></i><a href='#sectionInfo' class="link-nav" id="linkInfo">HALITOSIS</a></li>
+    <li><i class="fal fa-newspaper"></i><a href='#sectionStats' class="link-nav" style="text-decoration: none;" id="linkStats"><%= navbar.stats %></a></li>
+    <li><i class="fal fa-tooth"></i><a href="#sectionReviews" class='link-nav' id="linkReviews"><%= navbar.testimonials %></a></li>
+    <li><i class="fal fa-user-md"></i><a href='#sectionContact' class="link-nav" id="linkContact"><%= navbar.contact %></a></li>
   </ul>
 </nav>
 
 <script>
-/*   let nav = document.querySelector('nav');
 
-  window.addEventListener('scroll', function () {
-    if (window.pageYOffset > 0) {
-      nav.classList.add('scroll')
-    }else{
-      nav.classList.remove('scroll')
-    }
-  })
-
-   */
 </script>

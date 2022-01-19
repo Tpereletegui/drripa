@@ -9,7 +9,7 @@
         flex-direction: column;
         align-items: flex-end;
         .title{
-            background-color: lightgreen;
+            background-color: #f95759;
             padding:5px 30px 5px 30px;
             font-family: $section-titles-font;        
             font-size: 36px;
@@ -46,7 +46,7 @@
                         box-shadow: 0 0 10px rgba(192, 192, 192, 0.3);
                         border-radius: 15px;
                         &.focus{
-                            background-color: lightgreen;
+                            background-color: #f95759;
                             color: white;
                         }
                     }   
@@ -78,6 +78,7 @@
                     .chart{
                         width: 200px!important;
                         height: 200px!important;
+                        background-color: #f95759!important;
                     }
                     font-family: $text-body-font;   
                     text-align: center;

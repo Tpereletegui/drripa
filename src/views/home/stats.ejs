@@ -1,39 +1,39 @@
 <section class="section-stats" id="sectionStats">
     <div class="box" data-aos="fade-zoom-in">
         <span class="title" data-aos-delay="300"  data-aos="fade-down">
-            ESTADISTICAS
+            <%= stats.title %>
         </span>
         <div class="content">
-            <p>TOP 3 MOTIVOS DE CONSULTA AL ODONTOLOGO</p>
+            <p><%= stats.subtitle %></p>
             <div class="odonto-no">
                 <div class="top">
-                    <span class="field" data-aos="fade-up" data-aos-delay="100">1 Caries</span>
-                    <span class="field" data-aos="fade-up" data-aos-delay="200">2 Gingivitis (sangrado de encías)</span>
-                    <span class="field focus" data-aos="fade-up" data-aos-delay="300">3 HALITOSIS</span>
+                    <span class="field" data-aos="fade-up" data-aos-delay="100"><%= stats.problem1 %></span>
+                    <span class="field" data-aos="fade-up" data-aos-delay="200"><%= stats.problem2 %></span>
+                    <span class="field focus" data-aos="fade-up" data-aos-delay="300"><%= stats.problem3 %></span>
                 </div>
                 <div class="warning-box" data-aos="flip-down">
                     <span class="box">
-                        El problema es que el odontólogo no diagnostica ni trata esta problemática, dado que no se lo forma para ello en la universidad, es por esto que no maneja un diagnóstico con microscopio porque tampoco fue formado para ello.
+                        <%= stats.problem %>
                     </span>
                 </div>
             </div>
             <div class="percent">
                 <div class="chart-container" data-aos="flip-up">
                     <canvas id="myChart1" class="chart"></canvas>
-                    <p class="desc">El 50 % de la población mundial a partir de los 60 años tiene Halitosis crónica.</p>
-                    <p class="fuente">Fuente: American Dental Association</p>
+                    <p class="desc"><%= stats.desc1 %></p>
+                    <p class="fuente"><%= stats.page1 %></p>
                 </div>
 
                 <div class="chart-container" data-aos="flip-up" data-aos-delay="200">
                     <canvas id="myChart2" class="chart"></canvas>
-                    <p class="desc">El 25 % de la población mundial entre 10-59 años tiene halitosis crónica.</p>
-                    <p class="fuente">Fuente: American Dental Association</p>
+                    <p class="desc"><%= stats.desc2 %></p>
+                    <p class="fuente"><%= stats.page2 %></p>
                 </div>
 
                 <div class="chart-container" data-aos="flip-up" data-aos-delay="400">
                     <canvas id="myChart3" class="chart"></canvas>
-                    <p class="desc">El 30 % de la población general en EEUU tiene halitosis crónica.</p>
-                    <p class="fuente">Fuente: Harvard University</p>
+                    <p class="desc"><%= stats.desc3 %></p>
+                    <p class="fuente"><%= stats.page3 %></p>
                 </div>
             </div>
         </div>
