@@ -1204,15 +1204,28 @@ footer .ittech a:visited {
 .carousel-indicators {
   margin-bottom: 0px;
 }
+
+.carousel.item{
+  width: 100%;
+  text-align: center;
+}
 .carousel-item img {
   margin: auto;
   max-height: 600px;
+  text-align: center;
 }
 .carousel-control-next,
 .carousel-control-prev {
   color: black !important;
 }
 @media (max-width: 576px) {
+  .carousel-item img {
+    margin: auto;
+    max-height: 600px;
+    height: max-content;
+    width: 100%;
+    text-align: center;
+  }
   .carousel-caption-1{
     width: 100% !important;
     margin: 0px;
