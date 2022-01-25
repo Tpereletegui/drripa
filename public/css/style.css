@@ -43,6 +43,10 @@ nav .logo {
   font-weight: bold;
 }
 
+nav .mobileForm{
+  display: none;
+}
+
 nav .logo img {
   height: 70px;
 }
@@ -139,6 +143,29 @@ nav.scroll ul li {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.288);
     padding-left: -10%;
   }
+  nav .mobileForm{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-left: -80px;
+    margin-right: -50px;
+  }
+
+  nav .mobileForm .mobileBtn{
+    border: none;
+    background-color: transparent;
+    margin-right: 8%;
+  }
+
+  nav .mobileForm .mobileBtn :visited,
+  nav .mobileForm .mobileBtn :focus{
+    border: none;
+    background-color: transparent;
+    margin-right: 5%;
+    color: #f95759;
+  }
+
   nav  .logo {
     height: 70px;
     margin-right: 100px;
@@ -168,12 +195,12 @@ nav.scroll ul li {
     left: 0;
     margin-left: -70px;
     margin-right: 80px;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     transition: all 0.5s ease-in-out;
   }
   nav .checkbtn .hamburger {
-    width: 50px;
+    width: 40px;
     height: 6px;
     margin-left: 0px;
     background-color: #f95759;
@@ -185,7 +212,7 @@ nav.scroll ul li {
   nav .checkbtn .hamburger::after {
     content: "";
     position: absolute;
-    width: 50px;
+    width: 40px;
     height: 6px;
     background-color: #f95759;
     border-radius: 5px;
@@ -252,6 +279,26 @@ nav.scroll ul li {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.288);
     padding-left: 100px;
   }
+  nav  .logo {
+    height: 70px;
+    margin-right: 100px;
+    margin-left: -40px;
+    margin-bottom: 5%;
+  }
+  nav .mobileForm{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-left: -100px;
+    margin-right: -50px;
+  }
+
+  nav .mobileForm .mobileBtn{
+    border: none;
+    background-color: transparent;
+    margin-right: 8%;
+  }
   nav .checkbtn {
     position: relative;
     display: flex;
@@ -259,14 +306,14 @@ nav.scroll ul li {
     align-items: center;
     cursor: pointer;
     left: 0;
-    margin-left: -80px;
+    margin-left: -100px;
     margin-right: 90px;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 30px;
     transition: all 0.5s ease-in-out;
   }
   nav .checkbtn .hamburger {
-    width: 50px;
+    width: 40px;
     height: 6px;
     margin-left: 0px;
     background-color: #f95759;
@@ -278,7 +325,7 @@ nav.scroll ul li {
   nav .checkbtn .hamburger::after {
     content: "";
     position: absolute;
-    width: 50px;
+    width: 40px;
     height: 6px;
     background-color: #f95759;
     border-radius: 5px;
@@ -286,6 +333,7 @@ nav.scroll ul li {
   }
   nav .checkbtn .hamburger::before {
     transform: translateY(-16px);
+
   }
   nav .checkbtn .hamburger::after {
     transform: translateY(16px);
