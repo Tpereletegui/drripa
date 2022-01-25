@@ -99,6 +99,10 @@ nav ul li form {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  width: 130%;
+  padding-right: 18%;
+  height: max-content;
+  border: 1px solid black;
 }
 .langBtn{
   font-size: large;
@@ -143,9 +147,12 @@ nav.scroll ul li {
     margin-top: 15%;
   }
   nav ul li form {
-    margin-left: 30%;
+    margin-left: 13%;
+    padding-right: 30%;
+    padding-left: 20%;
+    width: max-content;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
   }
   
@@ -157,7 +164,7 @@ nav.scroll ul li {
     align-items: center;
     cursor: pointer;
     left: 0;
-    margin-left: -80px;
+    margin-left: -70px;
     margin-right: 80px;
     width: 60px;
     height: 60px;
