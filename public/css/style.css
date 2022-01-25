@@ -137,7 +137,7 @@ nav.scroll ul li {
     background: white;
     border-bottom: 2px solid var(--color-cement);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.288);
-    padding-left: -2%;
+    padding-left: -10%;
   }
   nav  .logo {
     height: 70px;
@@ -246,6 +246,62 @@ nav.scroll ul li {
   }
 }
 @media (max-width: 460px) {
+  nav {
+    background: white;
+    border-bottom: 2px solid var(--color-cement);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.288);
+    padding-left: 100px;
+  }
+  nav .checkbtn {
+    position: relative;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    cursor: pointer;
+    left: 0;
+    margin-left: -80px;
+    margin-right: 90px;
+    width: 60px;
+    height: 60px;
+    transition: all 0.5s ease-in-out;
+  }
+  nav .checkbtn .hamburger {
+    width: 50px;
+    height: 6px;
+    margin-left: 0px;
+    background-color: #f95759;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(104, 104, 104, 0.3);
+    transition: all 0.5s ease-in-out;
+  }
+  nav .checkbtn .hamburger::before,
+  nav .checkbtn .hamburger::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background-color: #f95759;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+  }
+  nav .checkbtn .hamburger::before {
+    transform: translateY(-16px);
+  }
+  nav .checkbtn .hamburger::after {
+    transform: translateY(16px);
+  }
+  nav #check:checked + .checkbtn .hamburger {
+    box-shadow: none;
+    transform: translateX(-50px);
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+  }
+  nav #check:checked + .checkbtn .hamburger:before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+  nav #check:checked + .checkbtn .hamburger:after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
   nav ul {
     width: 85vw;
   }
@@ -1260,8 +1316,7 @@ footer .ittech a:visited {
 @media (max-width: 576px) {
   .carousel-item img {
     margin: auto;
-    max-height: 600px;
-    height: max-content;
+    max-height: 550px;
     width: 100%;
     text-align: center;
   }
