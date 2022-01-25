@@ -42,6 +42,7 @@ nav .logo {
   color: #686868;
   font-weight: bold;
 }
+
 nav .logo img {
   height: 70px;
 }
@@ -93,6 +94,20 @@ nav ul li a:hover {
 nav ul li .fal {
   display: none;
 }
+nav ul li form {
+  margin-left: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.langBtn{
+  font-size: large;
+  margin-left: 15%;
+}
+.langBtn:hover{
+  color: #f95759;
+}
+
 nav.scroll {
   background: white;
   border-bottom: 2px solid var(--color-cement);
@@ -119,6 +134,20 @@ nav.scroll ul li {
     border-bottom: 2px solid var(--color-cement);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.288);
   }
+  nav  .logo {
+    height: 70px;
+    margin-right: 100px;
+  }
+  .langBtn{
+    font-size: x-large;
+    margin-top: 15%;
+  }
+  nav ul li form {
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
   
 
   nav .checkbtn {
@@ -128,8 +157,8 @@ nav.scroll ul li {
     align-items: center;
     cursor: pointer;
     left: 0;
-    margin-left: -100px;
-    margin-right: 100px;
+    margin-left: -80px;
+    margin-right: 80px;
     width: 60px;
     height: 60px;
     transition: all 0.5s ease-in-out;
@@ -936,12 +965,12 @@ footer .ittech a:visited {
   .section-aboutme .container .container-text {
     margin: 0;
     width: 100%;
-    padding-right: 50%;
+    padding-right: 10%;
   }
 }
 @media (max-width: 576px) {
   .section-aboutme {
-    margin-bottom: -375px;
+    margin-bottom: -355px;
   }
   .section-aboutme .container {
     width: 90%;
@@ -954,11 +983,12 @@ footer .ittech a:visited {
     transform: translateY(-100%);
   }
   .section-aboutme .container .container-text {
+    margin: 0;
     width: 100%;
-    padding: 40px;
+    padding-right: 10%;
   }
   .section-aboutme .container .container-text .padding {
-    width: 50%;
+    width: 100%;
   }
   .section-aboutme .container .container-green img {
     display: none;

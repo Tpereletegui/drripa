@@ -1,54 +1,16 @@
 [
   {
-    "title": "El amor crece solo sin distancia"
+    "title": "El amor solo crece con la distancia"
   },
+  
   {
-    "title": "Turismo Medico",
-    "description": "Personas de todos los paises del mundo nos visitan para diagnosticar- tratar su halitosis ( mal aliento ) y de paso conocer nuestro hermoso pais . Consulte por planes con alojamiento en hoteles de 4-5 estrellas y pre- reservas en restaurants argentinos ."   
-  },
-  {
-    "title": "No permitamos que se burlen de los niños"
+    "title": "No permitamos que se burlen de los niños "
   },
   {
     "title": "El mal aliento puede impedir expresarse libremente y crecer en lo laboral"
   },
+  
   {
-    "title": "DIAGNOSTICO Y TRATAMIENTOS A DISTANCIA",
-    "description": "Se le envian todos los materiales para que ud. Se haga los hisopados para detectar",
-    "items": [
-      "Bacterias gram +",
-      "Bacterias gram - (anaerobios)",
-      "Parasitos",
-      "Encias",
-      "Cultivo salival",
-      "Hongos (micosis)",
-      "Cultivo para causas estomacales."
-    ],
-    "bottom_text": "Luego de un entrenamiento por videollamado con la Dra. Klein. Los envia por correo y se estudia por microscopio, se llega al diagnostico que puede ser mas de una causa. Se diagrama y se le presenta el tratamiento a distancia ."
-  },
-  {
-    "title": "Que nos hace unicos en el pais.",
-    "description": "La Dra. Liza Klein tiene una profunda formacion en halitosis en EEUU. Unica experta en halitosis en el pais con una discipula en Argentina y en EEUU , proximamente academia de Halitosis."   
-  },
-  {
-    "title": "OZONOTERAPIA",
-    "items": [
-      "Areas que se tratan:",
-      "Lengua ( gas)",
-      "Piezas Dentales ( gel de ozono)",
-      "Encias ( ozono liquido)",
-      "Garganta ( gas)",
-      "Fosas nasales ( gas )"
-    ],
-    "bottom_text": "Este manantial de oxigeno mata a las bacterias que producen mal olor midiendo con un cromatografo y microscopio ( doble control ) lo que se mata para alcanzar el equilibrio y asi calibrar la flora oral normal , neutralizando de inmediato el aliento."  
-  },
-  {
-    "title": "Test in vitro de Helicobacter pylori en el momento en el consultorio"
-  },
-  {
-    "title": "Test in vitro de diabetes y prediabetes en el momento en el consultorio"
-  },
-  {
-    "title": "Lo social es parte de nuestra vida"
+    "title": "Socializar es gran parte de nuestra vida"
   }
 ]

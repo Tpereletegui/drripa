@@ -2,7 +2,7 @@
   <input type="checkbox" id="check">
   <label for="check" class="checkbtn"><div class="hamburger"></div></label>
   <a href="/" class="logo">
-    <img style='margin-right: 15px;' src="/images/dentistry.png" alt="Dr. Ripa">
+    <img style='margin-right: 15px' class="imagenNav" src="/images/dentistry.png" alt="Dr. Ripa">
     <div class="text">
       <span>Dr. Ripa</span>
       <span>HALITOSIS</span>
@@ -15,6 +15,11 @@
     <li><i class="fal fa-newspaper"></i><a href='#sectionStats' class="link-nav" style="text-decoration: none;" id="linkStats"><%= navbar.stats %></a></li>
     <li><i class="fal fa-tooth"></i><a href="#sectionReviews" class='link-nav' id="linkReviews"><%= navbar.testimonials %></a></li>
     <li><i class="fal fa-user-md"></i><a href='#sectionContact' class="link-nav" id="linkContact"><%= navbar.contact %></a></li>
+    <li><form action="/lang" method="post">
+      <button name="lang" value="esp" type="submit" class="langBtn">Spanish</button>
+      <button name="lang" value="eng" type="submit" class="langBtn">English</button>
+    </form>
+    </li>
   </ul>
 </nav>
 

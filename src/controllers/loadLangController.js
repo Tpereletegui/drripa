@@ -2,18 +2,24 @@ const fs = require('fs');
 const path = require('path');
 
 
-const loadLang = () =>{
+const loadLang = (lang) =>{
+    console.log('lang', lang)
+    if(lang === "none"){
+        lang = "eng"
+    }
+    else lang
 
     return {
-        slides: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/eng/slides.json'))),
-        halitosis: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/eng/halitosis.json'))),
-        stats: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/eng/stats.json'))),
-        bio: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/eng/bio.json'))),
-        testimonials: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/eng/testimonials.json'))),
-        contact: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/eng/contact.json'))),
-        footer: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/eng/footer.json'))),
-        navbar: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/eng/navbar.json'))),
+        slides: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/'+lang+'/slides.json'))),
+        halitosis: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/'+lang+'/halitosis.json'))),
+        stats: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/'+lang+'/stats.json'))),
+        bio: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/'+lang+'/bio.json'))),
+        testimonials: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/'+lang+'/testimonials.json'))),
+        contact: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/'+lang+'/contact.json'))),
+        footer: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/'+lang+'/footer.json'))),
+        navbar: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/'+lang+'/navbar.json'))),
     }
+
 }
 
 module.exports = loadLang;

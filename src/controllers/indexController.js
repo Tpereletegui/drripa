@@ -5,9 +5,15 @@ const loadLang = require('./loadLangController');
 
 module.exports = {
     index: function(req, res, next) {
+        let lang = null;
+        if (req.cookies.lang == undefined) {
+          lang = "none";
+          res.cookie("lang", "none");
+        } else {
+          lang = req.cookies.lang;
+        }
+            let language = loadLang(lang);
             
-            let language = loadLang();
-            console.log(language)
         res.render('index', { 
             title: 'Dr. Ripa', 
             testimonials: language.testimonials,
