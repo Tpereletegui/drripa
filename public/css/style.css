@@ -646,8 +646,8 @@ footer .ittech a:visited {
 }
 @media (max-width: 576px) {
   .section-principal .carousel {
-    
-    height: 600px;
+    margin-bottom: 250px; 
+    height: 400px;
   }
   .section-principal .text-container .text-content {
     color: white;
