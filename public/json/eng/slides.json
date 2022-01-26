@@ -12,5 +12,38 @@
   
   {
     "title": "Socializing is a big part of our life"
+  },
+  {
+    "title": "Diagnosis - Remote Treatments",
+    "description": "We will send you all you need for you to collect your own biological oral samples and Dr.Klein will train you through a zoom call. You send us back the samples and the Dr. studies them thoroughly under the microscope this way we can present the treatment plan",
+    "items": [
+      "Gram - Anaerobic Bacteria",
+      "Gram + Anaerobic Bacteria",
+      "Parasites",
+      "Gum swabs",
+      "Saliva Culture",
+      "Fungus",
+      "Stomach cause ( helicobacter Pylori test)"
+    ],
+    "bottom_text": "Many times its just one cause and other times there might be more than one cause."
+  },
+  {
+    "title": "Ozone-Therapy",
+    "items": [
+      "Treated areas:",
+      "Dorsal surface of the tongue ( ozone gas)",
+      "Teeth (ozonated gel)",
+      "Gums ( liquid ozone )",
+      "Throat ( ozone gas )",
+      "Nostrils ( ozone gas )"
+    ],
+    "bottom_text": "We manage 5 ozonater devices, each one releases different concentrations of ozone to rebalance your oral anaerobes not only in your mouth, since they are not steady. This extreme fountain of oxygen kills oral malodor bacteria. The procedures are doble checked and measured with a chromatographer and a electronic microscope, because killing bacteria has a limit especially when treating \"good bacteria\" they should be perfectly calibrated so they can continue to do their job. This mentioned calibration translates in an immediate odorless oral invironment."  
+  },
+  {
+    "title": "We perform in vitro testing of the bacterium Helicobacter Pylori, the most important stomach cause."
+  },
+  {
+    "title": "Medical Tourism",
+    "description": "We receive patients from all over the world to diagnose - treat their halitosis (Bad Breath) and they get to know Miami."   
   }
 ]

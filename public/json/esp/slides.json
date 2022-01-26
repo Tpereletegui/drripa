@@ -12,5 +12,39 @@
   
   {
     "title": "Lo social es parte de nuestra vida"
+  },
+  
+  {
+    "title": "Diagnosis - Remote Treatments",
+    "description": "We will send you all you need for you to collect your own biological oral samples and Dr.Klein will train you through a zoom call. You send us back the samples and the Dr. studies them thoroughly under the microscope this way we can present the treatment plan",
+    "items": [
+      "Gram - Anaerobic Bacteria",
+      "Gram + Anaerobic Bacteria",
+      "Parasites",
+      "Gum swabs",
+      "Saliva Culture",
+      "Fungus",
+      "Stomach cause ( helicobacter Pylori test)"
+    ],
+    "bottom_text": "Many times its just one cause and other times there might be more than one cause."
+  },
+  {
+    "title": "OZONOTERAPIA",
+    "items": [
+      "Areas que se tratan:",
+      "Lengua ( gas)",
+      "Piezas Dentales ( gel de ozono)",
+      "Encias ( ozono liquido)",
+      "Garganta ( gas)",
+      "Fosas nasales ( gas )"
+    ],
+    "bottom_text": "Este manantial de oxigeno mata a las bacterias que producen mal olor midiendo con un cromatografo y microscopio ( doble control ) lo que se mata para alcanzar el equilibrio y asi calibrar la flora oral normal , neutralizando de inmediato el aliento."  
+  },
+  {
+    "title": "Test in vitro de diabetes y prediabetes en el momento en el consultorio"
+  },
+  {
+    "title": "Turismo Medico",
+    "description": "Personas de todos los paises del mundo nos visitan para diagnosticar- tratar su halitosis ( mal aliento ) y de paso conocer Miami."   
   }
 ]

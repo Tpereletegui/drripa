@@ -1,4 +1,4 @@
-<section class="section-principal" style="height: auto !important;">
+<section class="section-principal" style="height: auto !important; margin-bottom: 20%;">
   <div
     style="margin-top: 100px"
     id="carouselExampleCaptions"
@@ -12,6 +12,15 @@
         <img src="/images/banners/21.jpeg" class="carouselimg d-block" alt="First slide" />
         <div  class="carousel-caption-1">
           <h5 style="font-size: 1.5rem;"><%= slides[0].title %></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/images/banners/avion.jpg" class="d-block" alt="..." />
+        <div class="carousel-caption-8">
+          <h5 ><%= slides[7].title %></h5>
+          <p class="texto-chico">
+            <%= slides[7].description %>
+          </p>
         </div>
       </div>
       <div class="carousel-item">
@@ -35,6 +44,32 @@
           <h5 style="font-size: 1.5rem;">
             <%= slides[2].title %>
           </h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/images/banners/10.png" class="d-block" alt="..." />
+        <div class="carousel-caption-6">
+          <h5 style="font-size: 1.5rem;"><%= slides[5].title %></h5>
+          <div class="texto-chico">
+            <p>
+              <ul>
+                <% for(let i = 0; i < slides[5].items.length; i++){ %>
+                  <li><%= slides[5].items[i] %></li>
+                <% } %>
+                <li class="foot">
+                  <%= slides[5].bottom_text %>
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+     
+      <div class="carousel-item">
+        <img src="/images/banners/11.png" class="d-block" alt="..." />
+        <div class="carousel-caption-7" >
+          <h5 ><%= slides[6].title %></h5>
+          
         </div>
       </div>
         <!-- <div class="carousel-item">
