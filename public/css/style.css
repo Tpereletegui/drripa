@@ -492,6 +492,11 @@ footer .ittech a:visited {
   object-fit: cover;
   max-height: 300px;
   width: 100%;
+
+}
+
+.section-principal .carousel {
+  height: 600px;
 }
 .section-principal .text-container {
   position: absolute;
@@ -603,6 +608,10 @@ footer .ittech a:visited {
 }
 
 @media (max-width: 768px) {
+  .section-principal .carousel {
+    
+    height: 600px;
+  }
   .section-principal .text-container {
     justify-content: flex-start;
     align-items: center;
@@ -636,6 +645,10 @@ footer .ittech a:visited {
   }
 }
 @media (max-width: 576px) {
+  .section-principal .carousel {
+    
+    height: 600px;
+  }
   .section-principal .text-container .text-content {
     color: white;
   }
@@ -1275,6 +1288,18 @@ footer .ittech a:visited {
   font-size: xx-small;
   font-family: "Roboto", sans-serif;
 }
+.section-contact-days{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 15%;
+  width: 300px;
+}
+.section-contact .contact .field .contact-mobile{
+    display: none;
+  }
+
 
 @media (max-width: 576px) {
   .section-contact .box {
@@ -1296,6 +1321,13 @@ footer .ittech a:visited {
   .section-contact .box .message {
     width: 100%;
   }
+  .section-contact .contact .field .contact-web{
+    display: none;
+  }
+  .section-contact .contact .field .contact-mobile{
+    display:flex;
+  }
+
 }
 
 /*# sourceMappingURL=style.css.map */
