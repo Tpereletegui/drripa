@@ -880,7 +880,7 @@ footer .ittech a:visited {
   align-items: flex-end;
 }
 .section-stats .box .title {
-  background-color: #f95759;
+  background-color: rgba(144, 238, 144, 0.8);
   padding: 5px 30px 5px 30px;
   font-family: "Rajdhani", sans-serif;
   font-size: 36px;
@@ -920,8 +920,8 @@ footer .ittech a:visited {
   border-radius: 15px;
 }
 .section-stats .box .content .odonto-no .top .field.focus {
-  background-color: #f95759;
-  color: white;
+  background-color: rgba(144, 238, 144, 0.8);
+  color: black;
 }
 .section-stats .box .content .odonto-no .warning-box {
   width: 50%;
@@ -1333,7 +1333,7 @@ footer .ittech a:visited {
 /*# sourceMappingURL=style.css.map */
 .carousel-caption-1 {
   position: relative;
-  background-color: rgba(249, 87, 89, 0.8);
+  background-color: rgba(144, 238, 144, 0.8);
   top: 15%;
   color: black;
   padding: 10px;
@@ -1345,7 +1345,7 @@ footer .ittech a:visited {
 }
 
 .carousel-caption-2 {
-  background-color: rgba(249, 87, 89, 0.8);
+  background-color: rgba(144, 238, 144, 0.8);
   color: black;
   padding: 10px;
   font-size: 15px;
@@ -1354,7 +1354,7 @@ footer .ittech a:visited {
   text-align: center;
 }
 .carousel-caption-3 {
-  background-color: rgba(249, 87, 89, 0.8);
+  background-color: rgba(144, 238, 144, 0.8);
   color: black;
   padding: 10px;
   font-size: 15px;
@@ -1363,7 +1363,7 @@ footer .ittech a:visited {
   text-align: center;
 }
 .carousel-caption-4 {
-  background-color: rgba(249, 87, 89, 0.8);
+  background-color: rgba(144, 238, 144, 0.8);
   color: black;
   padding: 10px;
   text-align: center;
@@ -1374,7 +1374,7 @@ footer .ittech a:visited {
 .carousel-caption-5 {
   position: absolute;
   top: 45%;
-  background-color: rgba(249, 87, 89, 0.8);
+  background-color: rgba(144, 238, 144, 0.8);
   color: black;
   padding: 10px;
   font-size: 15px;
@@ -1385,7 +1385,7 @@ footer .ittech a:visited {
 .carousel-caption-6 {
   position: absolute;
   top: 45%;
-  background-color: rgba(249, 87, 89, 0.8);
+  background-color: rgba(144, 238, 144, 0.8);
   color: black;
   padding: 10px;
   font-size: 15px;
@@ -1395,7 +1395,7 @@ footer .ittech a:visited {
   margin-left: 23.8%;
 }
 .carousel-caption-7 {
-  background-color: rgba(249, 87, 89, 0.8);
+  background-color: rgba(144, 238, 144, 0.8);
   color: black;
   padding: 10px;
   font-size: 15px;
@@ -1405,7 +1405,7 @@ footer .ittech a:visited {
 }
 .carousel-caption-8 {
   top: 45%;
-  background-color: rgba(249, 87, 89, 0.8);
+  background-color: rgba(144, 238, 144, 0.8);
   color: black;
   padding: 10px;
   font-size: 15px;
