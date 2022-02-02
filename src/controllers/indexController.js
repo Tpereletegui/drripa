@@ -51,8 +51,8 @@ module.exports = {
             // send mail with defined transport object
             await transporter.sendMail({
                 from: 'Nuevo mensaje <mails@it-techgroup.com>', // sender address
-                to: "", // list of receivers info@dralizaklein.com
-                subject: req.body.subject+" - Dr. Ripa", // Subject line
+                to: "Bayharborsmile@gmail.com", // list of receivers info@dralizaklein.com
+                subject: req.body.subject+"thefreshbreathclinics.com", // Subject line
                 text: req.body.message, // plain text body
                 html: `<p> <span>Message: </span> "`+req.body.message+`"</p>
                         <p> <span>Email: </span> "`+req.body.email+`"</p>`, // html body
