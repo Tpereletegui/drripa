@@ -24,6 +24,7 @@ module.exports = {
             contact: language.contact,
             footer: language.footer,
             navbar: language.navbar,
+            treatments: language.treatments,
             
         });
     },

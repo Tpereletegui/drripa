@@ -1,0 +1,42 @@
+{
+  "title": "TRATAMIENTOS",
+  "diagnosticTitle": "Diagnóstico Básico :",
+  "diagnosticItems": [
+    "• Examen clinico",
+    "• Examen microscopico en el momento",
+    "• Cultivo de saliva determinando cantidad de saliva y acidez ",
+    "• Test de Prediabetes ",
+    "• Test del Aliento : Cromatografia gaseosa de ultima generacion con HALISENS con imagen proyectada en macro- monitor de compuestos volatiles sulfurosos ( gases orales responsables del mal aliento ) dejando atras al halimeter . Esta cromatografia le brinda un puntaje a su aliento . Se mide antes y despues de la calibracion bacteriana ( matar bacterias eliminnanfo el mal olor ) para saber com exactitud la cantidad de bacterias que estan en exceso y deben ser eliminadas. ",
+    "• HISOPADOS: ",
+    "• Saturacion de oxigeno "
+
+
+  ],
+  "swabitems" : [
+    "- Bacterias anaerobicas GRAM + ",
+    "- Bacterias anaerobicas GRAM - ",
+    "- Micosis (hongos)", 
+    "- Parasitos",
+    "- Larvas",
+    "- Virus (mal olientes)"
+    
+  ],
+  "diagnosticTitle2": "Diagnostico complementario ",
+  "diagnosticb": "Test de Diabetes : in vitro ",
+  "diagnosticc" : "Test de Helicobacter - Pylori ",
+  "diagnosticitem" : "Bacteria potencialmente cancerigena ( toda lengua blanca en el mundo debe realizar este test, previniendo dicha pagologia entre muchas otras ) ", 
+
+  "treatment" : "Tratamiento",
+  "treatmentdescription" : "Muchas veces el paciente presenta mas de una causa; es por esto que el diagnostico es tan profundo , para que el tratamiento sea exitoso y se elimine esta desventaja social, lo mas pronto posible . Los tratamientos dependeran de las causas . Los mas habituales son :",
+  "treatmentitems": [
+    "- Ozonoterapia en gas y liquida.",
+    "- Laserterapia lingual. ", 
+    "",
+    "", 
+    "Entre muchos otros tratamientos y combinaciones de ellos."      
+
+
+  ]
+
+ 
+}

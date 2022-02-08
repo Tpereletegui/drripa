@@ -18,6 +18,7 @@ const loadLang = (lang) =>{
         contact: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/'+lang+'/contact.json'))),
         footer: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/'+lang+'/footer.json'))),
         navbar: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/'+lang+'/navbar.json'))),
+        treatments: JSON.parse(fs.readFileSync(path.join(__dirname, '../../public/json/'+lang+'/treatments.json'))),
     }
 
 }

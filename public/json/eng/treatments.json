@@ -1,0 +1,41 @@
+{
+  "title": "TREATMENTS",
+  "diagnosticTitle": "Basic Diagnosis  :",
+  "diagnosticItems": [
+    "• Oral examination ",
+    "• Microscope examination ",
+    "• Saliva culture to determine quantity ( all dry mouths release bad odor) and quality : acidity (PH)  ",
+    "• Pre- diabetes test  ",
+    "• Breath Test : With a “State of the Art” chromatographer   “Halisens” device that projects volatile sulfur compounds ( smelly oral gases) into a monitor, leaving back the old halimeter. The chromatography evaluates and “scores your breath instantly “. We measure your breath before and after the bacterium calibration ( killing bacteria eliminates  bad breath  ) . The first measurement is to know what bacteria are in excess so we can kill exactly what is needed .",
+    "• SWABS: : A lot of times we discover with the microscope reading some species that are very harmful and do not bring halitosis ( bad breath ) but need to be eliminated for our  general health .",
+    "• OXYGEN SATURATION "
+  ],
+  "swabitems" : [
+    "GRAM +  anaerobic bacteria",
+    "GRAM -  anaerobic bacteria",
+    "- Micosis (fungus)", 
+    "- Parasites",
+    "- Parasite larvae",
+    "- Virus"
+    
+  ],
+  "diagnosticTitle2": "Complementary Tests ",
+  "diagnosticb": "• Diabetes ( in vitro )",
+  
+  "diagnosticc" : "• Helicobacter -Pylori ( in vitro) ",
+  "diagnosticitem" : "Can potentially cause cancer. ( every tongue in the world that has a white coating on top of it should run the Helicobacter Pylori test  . The white  coating and the bad odor are signs that something is wrong and needs evaluation.", 
+
+  "treatment" : "TREATMENT",
+  "treatmentdescription" : "There are many times in which there are many causes and other times just one, not predictable before diagnosis. This is the reason why the evaluation is so deep , this way the treatment can be successful and this social disadvantage can be left behind as soon as possible. Sometimes more than one treatment is necessary . There are 72 causas ; so there are also 72 treatments. Our major treatments are :   ",
+  "treatmentitems": [
+    "- Gas and liquid OZONE- THERAPY",
+    "- Laser therapy ",  
+    "- Ultrasound dental cleaning.",
+    "- Airflow ",
+    "Among many others and combinations of them."     
+
+
+  ]
+
+ 
+}
