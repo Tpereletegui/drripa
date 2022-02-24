@@ -726,7 +726,7 @@ footer .ittech a:visited {
   flex-wrap: wrap;
 }
 .section-info .container .container-green {
-  background-color: lightgreen;
+  background-color: #f95759;
   display: flex;
   justify-content: center;
   padding: 0px;
@@ -889,7 +889,7 @@ footer .ittech a:visited {
   align-items: flex-end;
 }
 .section-stats .box .title {
-  background-color: rgba(144, 238, 144, 0.8);
+  background-color: #f95759;
   padding: 5px 30px 5px 30px;
   font-family: "Rajdhani", sans-serif;
   font-size: 36px;
@@ -929,14 +929,14 @@ footer .ittech a:visited {
   border-radius: 15px;
 }
 .section-stats .box .content .odonto-no .top .field.focus {
-  background-color: rgba(144, 238, 144, 0.8);
+  background-color: #f95759;
   color: black;
 }
 .section-stats .box .content .odonto-no .warning-box {
   width: 50%;
 }
 .section-stats .box .content .odonto-no .warning-box .box {
-  background-color: lightgrey;
+  background-color: #f95759;
   border-radius: 15px;
   width: 100%;
   padding: 20px;
@@ -1037,7 +1037,7 @@ footer .ittech a:visited {
   display: none;
 }
 .section-aboutme .container .container-green {
-  background-color: rgba(144, 238, 144, 0.8);;
+  background-color: #f95759;;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1228,7 +1228,7 @@ footer .ittech a:visited {
   flex-direction: column;
 }
 .section-contact .box .message .title {
-  background-color: lightgreen;
+  background-color: #f95759;
   padding: 5px 10px;
   font-family: "Rajdhani", sans-serif;
   color: white;
@@ -1267,7 +1267,7 @@ footer .ittech a:visited {
   align-self: center;
   border: none;
   /* background-color: #f95759; */
-  background-color: lightgreen;
+  background-color: #f95759;
   padding: 5px 20px;
   border-radius: 10px;
   color: white;
@@ -1275,7 +1275,7 @@ footer .ittech a:visited {
 .section-contact .box .contact {
   position: relative;
   transform: translateY(-60px) translateX(60px);
-  background-color: lightgreen;
+  background-color: #f95759;
   padding: 30px;
   color: white;
   display: flex;
@@ -1343,7 +1343,7 @@ footer .ittech a:visited {
 /*# sourceMappingURL=style.css.map */
 .carousel-caption-1 {
   position: relative;
-  background-color: rgba(144, 238, 144, 0.8);
+  background-color: #f9575ad8;
   top: 15%;
   color: black;
   padding: 10px;
@@ -1355,7 +1355,7 @@ footer .ittech a:visited {
 }
 
 .carousel-caption-2 {
-  background-color: rgba(144, 238, 144, 0.8);
+  background-color: #f9575ad8;
   color: black;
   padding: 10px;
   font-size: 15px;
@@ -1364,7 +1364,7 @@ footer .ittech a:visited {
   text-align: center;
 }
 .carousel-caption-3 {
-  background-color: rgba(144, 238, 144, 0.8);
+  background-color: #f9575ad8;
   color: black;
   padding: 10px;
   font-size: 15px;
@@ -1373,7 +1373,7 @@ footer .ittech a:visited {
   text-align: center;
 }
 .carousel-caption-4 {
-  background-color: rgba(144, 238, 144, 0.8);
+  background-color: #f9575ad8;
   color: black;
   padding: 10px;
   text-align: center;
@@ -1384,7 +1384,7 @@ footer .ittech a:visited {
 .carousel-caption-5 {
   position: absolute;
   top: 45%;
-  background-color: rgba(144, 238, 144, 0.8);
+  background-color: #f9575ad8;
   color: black;
   padding: 10px;
   font-size: 15px;
@@ -1395,7 +1395,7 @@ footer .ittech a:visited {
 .carousel-caption-6 {
   position: absolute;
   top: 45%;
-  background-color: rgba(144, 238, 144, 0.8);
+  background-color: #f9575ad8;
   color: black;
   padding: 10px;
   font-size: 15px;
@@ -1405,7 +1405,7 @@ footer .ittech a:visited {
   margin-left: 23.8%;
 }
 .carousel-caption-7 {
-  background-color: rgba(144, 238, 144, 0.8);
+  background-color: #f9575ad8;
   color: black;
   padding: 10px;
   font-size: 15px;
@@ -1415,7 +1415,7 @@ footer .ittech a:visited {
 }
 .carousel-caption-8 {
   top: 45%;
-  background-color: rgba(144, 238, 144, 0.8);
+  background-color: #f9575ad8;
   color: black;
   padding: 10px;
   font-size: 15px;
