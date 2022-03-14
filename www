@@ -5,7 +5,7 @@
  */
 
 var app = require('./src/app.js');
-var debug = require('debug')('lizaklein:server');
+var debug = require('debug')('drripa:server');
 var http = require('http');
 
 /**

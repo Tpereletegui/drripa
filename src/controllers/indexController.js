@@ -13,7 +13,7 @@ module.exports = {
           lang = req.cookies.lang;
         }
             let language = loadLang(lang);
-            
+        return res.send('hola')    
         res.render('index', { 
             title: 'Dr. Ripa', 
             testimonials: language.testimonials,
